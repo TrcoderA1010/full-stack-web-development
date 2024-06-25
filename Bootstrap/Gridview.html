@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>gridview bootstrap</title>
+    <style>
+        #red{
+            background-color: red;
+            height: 1000px;
+        }
+        #row1{
+            background-color: aqua;
+            height: 200px;
+        }
+        #row2{
+            background-color: rgb(225, 0, 255);
+            height: 200px;
+        }
+    </style>
+
+  </head>
+  <body>
+   <div class="container-fluid  " id="red">
+    <div class="row " id="row1">
+        <div class="col-lg-4 col-md-6 col-sm-3 col-6 bg-primary">col 12</div>
+        <div class="col-lg-6 col-md-3 col-sm-3 col-6 bg-secondary">col 12</div>
+        <div class="col-lg-2 col-md-3 col-sm-6 bg-danger">col 12</div>
+
+
+
+    </div>
+<!-- nested row in colum  -->
+    <div class="row" id="row2">
+        <div class="col-lg-4 bg-info">col4 </div>
+        <div class="col-lg-8 bg-dark">col8 
+            <div class="row">
+                <div class="col-lg-4 bg-primary">col1</div>
+                <div class="col-lg-4 bg-success">col2</div>
+                <div class="col-lg-4 bg-warning">col3</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- auto text width  -->
+    <div class="row">
+        <div class="col bg-warning">hello</div>
+        <div class="col-auto bg-primary">shubham </div>
+        <div class="col bg-success">world</div>
+    </div>
+
+    <div class="row row-cols-2">
+        <div class="col bg-dark text-white">hello</div>
+        <div class="col bg-secondary text-white">shubham </div>
+        <div class="col bg-info text-white">world</div>
+        <div class="col bg-warning">col3</div>
+    </div>
+    
+    <div class="row row-cols-auto">
+        <div class="col bg-dark text-white">hellods,mnfjfljfjdf</div>
+        <div class="col bg-secondary text-white">shubham </div>
+        <div class="col bg-info text-white">worlddsnjbdjnsd</div>
+        <div class="col bg-warning">col3</div>
+    </div>
+
+
+   </div>
+
+   <div class="container-fluid" >
+    <div class="row align-items-center" style="background-color: black; min-height: 500px;">
+        <div class="col bg-danger">dsfhfh</div>
+        <div class="col bg-info">dvbvfjvh</div>
+        <div class="col bg-secondary">dvfhhab</div>
+        <div class="col bg-primary">dvnjfvbbvb</div>
+    </div>
+    <div class="row bg-info" style="min-height: 400px;">
+       
+        
+       
+        <div class="col bg-primary align-self-start">dvnjfvbbvb</div>
+        <div class="col bg-secondary align-self-center">dvfhhab</div>
+        <div class="col bg-warning align-self-end">dvbvfjvh</div>
+        <div class="col bg-danger">dsfhfh</div>
+
+    </div>
+
+    <div class="row bg-warning justify-content-center" style="min-height: 400px;">
+       
+        
+       
+        <div class="col-4 bg-primary ">div</div>
+        <div class="col-4 bg-secondary ">div</div>
+        
+
+    </div>
+
+    <div class="row bg-primary justify-content-evenly" style="min-height: 400px;">
+       
+        
+       
+        <div class="col-4 bg-success">div</div>
+        <div class="col-4 bg-secondary ">div</div>
+        
+
+    </div>
+   </div>
+
+   
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
