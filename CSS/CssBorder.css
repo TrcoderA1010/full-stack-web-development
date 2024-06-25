@@ -1,0 +1,46 @@
+h1{
+    background-color: antiquewhite;
+    border-style: dashed;
+}
+
+h2{
+    background-color: antiquewhite;
+    border-bottom-style: dashed;
+
+}
+h3{
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    border-radius: 10px;
+}
+.container1{
+    height: 100px;
+    background-color: aquamarine;
+    border-style: dashed dotted double none;
+    /*  border- style: top left bottom right;
+
+    border- style: top left-right bottom;
+
+    border- style: top-bottom left-right ;
+    */
+    border-width: 5px;
+}
+.container2{
+    background-color: pink;
+    border: red solid 5px ;
+}
+#me{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+}
+#me1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    float: right;
+}

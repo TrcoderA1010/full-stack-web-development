@@ -1,0 +1,53 @@
+/* there are five type of positions
+1.reletive(ha apalay jagevarun position change karte pan ha bottom vr work nahi karat
+2.Absolute(ha parent cha under position change karte pan kahi barobar resulte nahi midhala tr parent div le postion reletive day lagel
+3.fixed(it take element fixed it also used for navbar)
+4.stecky(it float the element like navbar pan yale sanga lagate ki keva karacha ex:position:stecky; top:0px;
+jasa ha element 0px yeiel top varun teve float karanar) 
+5.static (it's normal like tag)*/
+
+
+
+
+
+
+
+
+
+.nav{
+    height: 100px;
+    background-color: rgba(75, 130, 239,0.5);
+    position: sticky;
+    top: 0px;
+}
+.container1{
+ height: 10000px;
+ width: 800px;
+ background-color: blanchedalmond;
+ position:fixed;
+
+}
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    
+}
+.box2{
+    background-color: rgb(112, 92, 92);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    
+}
+button{
+    background-color:rgb(188, 196, 75);
+    border: solid 5px blue ;
+    border-radius: 20%;
+    font-size: large;
+    position: fixed;
+}
