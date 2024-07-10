@@ -28,7 +28,31 @@
 
 // It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
 
-arr1 = [1,2,3,4,5,6,7]
-for(let x of arr1){
-    console.log(arr1[x]);
+// arr1 = [1,2,3,4,5,6,7]
+// for(let x of arr1){
+//     console.log(arr1[x]);
+// }
+
+// break and continue
+
+// var i = 0;
+// while(i<=10){
+//     if(i == 7){
+//         break;
+//     }
+//     console.log(i);
+//     i++
+// }
+
+var i = 0;
+while(i<=10){
+    i++;
+    
+    if(i == 1) {
+        continue;
+    }
+    console.log(i);
+
+   
+  
 }
