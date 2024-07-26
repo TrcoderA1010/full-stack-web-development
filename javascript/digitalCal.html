@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+<style>
+  *{
+    margin: 0px;
+    padding: 0%;
+    
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .display{
+    background-color:rgb(231,227,227);
+    width: 400px;
+    height: 520px;
+    box-shadow: 5px 5px 15px #68cdca;
+    padding: 10px;
+  }
+  #display{
+    width: 100%;
+   background: white;
+    height: 70px;
+    text-align: right;
+    border: none;
+      outline: none;
+      box-shadow:inset 2px 2px 10px #b4edf4,inset -5px -5px 10px #ffffff;
+   font-size: 30px;
+   padding: 10px;
+   box-sizing: border-box;
+  }
+  .buttons-group{
+    display: flex;
+    justify-content: space-around;
+  }
+  .button{
+    width: 85px;
+    height: 85px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px #b6acac,-5px -5px 10px #fafaf4;
+    margin: 10px;
+
+  }
+  .button:active{
+    box-shadow: inset 1px 1px 5px #babeec,inset -1px -1px 2px #ffffff;
+  }
+  .button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+  }
+
+  
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="display">
+      <input type="text" id="display" disabled>
+      <br><br>
+      <div class="buttons-group">
+        <input class="button" type="button"  value="9" onclick="display.value += '9' " >
+        <input class="button" type="button"  value="8" onclick="display.value += '8' " >
+        <input class="button" type="button"  value="7" onclick="display.value += '7' " >
+        <input class="button" type="button"  value="+" onclick="display.value += '+' " >
+      </div>
+      <div class="buttons-group">
+        <input class="button" type="button"  value="6" onclick="display.value += '6' " >
+        <input class="button" type="button"  value="5" onclick="display.value += '5' " >
+        <input class="button" type="button"  value="4" onclick="display.value += '4' " >
+        <input class="button" type="button"  value="-" onclick="display.value += '-' " >
+      </div>
+      <div class="buttons-group">
+        <input class="button" type="button"  value="3" onclick="display.value += '3' " >
+        <input class="button" type="button"  value="2" onclick="display.value += '2' " >
+        <input class="button" type="button"  value="1" onclick="display.value += '1' " >
+        <input class="button" type="button"  value="*" onclick="display.value += '*' " >
+      </div>
+      <div class="buttons-group">
+        <input class="button" type="button"  value="c" onclick="display.value = '' " >
+        <input class="button" type="button"  value="0" onclick="display.value += '0' " >
+        <input class="button" type="button"  value="=" onclick="display.value = eval(display.value) " >
+        <input class="button" type="button"  value="/" onclick="display.value += '/' " >
+      </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>

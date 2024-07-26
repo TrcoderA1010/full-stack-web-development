@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>this is second page </h1>
+    
+    <button id="btn" onclick="goback()">go back </button>
+    <button id="btn1" onclick="colorChangeofBody()">color change</button>
+
+
+
+    <script>
+        function goback(){
+            window.history.back();
+            // window.history.forward();
+        }
+
+        // setTimeout(()=>{
+        //     alert("this site is made by shubham")
+
+        // },5000);
+
+        // confirm("do you want log out ")
+
+        function colorChangeofBody(){
+           const x = prompt("enter your color name")
+           console.log(x);
+           document.getElementsByTagName("body")[0].style.backgroundColor= x;
+        }
+        
+
+
+
+        
+    </script>
+</body>
+</html>
