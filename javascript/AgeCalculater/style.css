@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, rgb(152, 220, 231),rgb(67, 217, 12));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-color: white;
+    width: fit-content;
+    padding: 50px;
+
+}
+input{
+    padding: 10px;
+    border-radius: 5%;
+}
+h1{
+    color: hotpink;
+}
+input[type="Button"]{
+    background-color: bisque;
+
+
+}
+input[type="Button"]:active{
+    box-shadow: inset 2px 2px 4px rgb(133, 120, 120),inset -2px -2px 4px rgba(128, 65, 65, 0.541) ;
+}
+
