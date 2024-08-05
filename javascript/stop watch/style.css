@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    width: 320px;
+    height: 220px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 10px 10px 5px aqua;
+
+
+}
+.heading{
+    color: rgb(10, 154, 156);
+    text-align: center;
+    font-size: 35px;
+}
+.heading1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+}
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px;
+color: white;}
